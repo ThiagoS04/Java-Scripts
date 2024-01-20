@@ -1,0 +1,80 @@
+/**Thiago Schuck November 13 2023
+ * This program is the final project of CMP129
+ * It's purpose is to create a game for the user to play using everything I learned in class
+ * This game is a planting game
+ * This is the css file for the GUI
+ */
+
+#root-main {
+
+	-fx-background-color: radial-gradient(center 50% 50%, radius 100%, rgb(102, 80, 48), rgb(81, 57, 45));
+	-fx-background-position-x: center;
+	-fx-font-size: 20pt;
+	-fx-font-weight: bold;
+	-fx-font-style: normal;
+	-fx-text-fill: black;
+	
+}
+
+#root-titleCard {
+	
+	-fx-background-color: linear-gradient(rgb(0, 125, 200), rgb(0, 0, 125));
+	-fx-font-size: 15pt;
+	-fx-font-weight: normal;
+	-fx-font-style: normal;
+	
+}
+
+#root-subCard {
+	
+	-fx-background-color: radial-gradient(center 50% 50%, radius 100%, rgb(81, 57, 45), rgb(46, 30, 31));
+	-fx-background-position-x: center;
+	-fx-font-size: 10pt;
+	-fx-text-fill: white;
+	-fx-font-weight: normal;
+	
+}
+
+#label-subStageTitleText {
+	
+	-fx-font-family: serif;
+	-fx-font-size: 14pt;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+	
+}
+
+#label-title {
+	
+	-fx-font-family: monospace;
+	-fx-text-fill: rgb(185, 185, 185);
+	-fx-font-size: 44pt;
+	-fx-font-weight: bold;
+		
+}
+
+#label-subTitle {
+	
+	-fx-font-family: serif;
+	-fx-text-fill: rgb(125, 125, 125);
+	-fx-font-size: 15pt;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+	
+}
+
+#button{
+	
+	-fx-background-color: linear-gradient(rgb(75, 75, 75),  rgb(150, 150, 150));
+	-fx-text-fill: #FFFFFF;
+	-fx-font-family: monospace;
+	-fx-font-size: 15pt;
+	
+}
+
+#need-icon {
+	
+	-fx-background-color: white;
+	
+}

@@ -1,0 +1,28 @@
+Final project hierarchy
+
+Final project folder {
+
+	main package {
+
+		Main class
+		UserInterface class
+		sub interface classes
+
+	}
+
+	object related package {
+
+		Plant class
+		Plant interface
+		Any Plant subclass (potato, carrot, etc...)
+
+	}
+
+	resources package {
+
+		Image files
+		css file
+
+	}
+
+}
